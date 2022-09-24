@@ -1,0 +1,55 @@
+.contenidoFooter{
+    background-color: #FF2E2E;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    column-gap: 50px;
+    justify-content: center;
+}
+
+.cardsContainer{
+    display:grid;
+    grid-template-columns: 20% 20% 20%;
+    column-gap: 90px;
+    justify-content: center;
+    background-color: #3D3D3D;
+    padding-bottom: 60px;
+}
+
+.titulovideo{
+    padding: 20px;
+    background-color: #3D3D3D;
+    color: white;
+    font-family: PokemonGB;
+}
+
+.sliderContainer{
+    padding: 5%;
+    background-color: #2B2B2B;
+     
+}
+
+.videoContainer{
+    background-color: #3D3D3D;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 20px
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.objetoGrid{
+    padding: 25px
+}
+
+.logopoke{
+    width: 250px;
+}
