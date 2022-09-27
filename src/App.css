@@ -12,6 +12,33 @@
   color: white
 }
 
+.pokefondo{
+  background-color: #282c34;
+}
+
+.containerPokemon{
+  padding-top: 25px;
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  justify-content: center;
+  row-gap: 35px;
+  column-gap: 45px;
+  padding-bottom: 50px;
+}
+
+.botonContador{
+  display: grid;
+  grid-template-columns: 5% 5% 5%;
+  justify-content: center;
+}
+
+.pokeTitulo{
+  text-align: center;
+  padding: 35px;
+  font-family: PokemonGB;
+  color: white
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -11,25 +11,25 @@
     grid-template-columns: 20% 20% 20%;
     column-gap: 90px;
     justify-content: center;
-    background-color: #3D3D3D;
+    background-color: #282c34;
     padding-bottom: 60px;
 }
 
 .titulovideo{
     padding: 20px;
-    background-color: #3D3D3D;
+    background-color: #282c34;
     color: white;
     font-family: PokemonGB;
 }
 
 .sliderContainer{
     padding: 5%;
-    background-color: #2B2B2B;
+    background-color: #282c34;
      
 }
 
 .videoContainer{
-    background-color: #3D3D3D;
+    background-color: #282c34;
     display: flex;
     justify-content: center;
     padding-bottom: 50px;

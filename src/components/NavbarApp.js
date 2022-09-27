@@ -16,14 +16,16 @@ function NavbarApp() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse style={{marginLeft: '20px'}} id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Link to="/" ><Nav.Link style={{marginLeft: '16px',color: 'white'}} className="opcionesnav" href="#home">Inicio</Nav.Link></Link>
-            <Link to="/Pokemons" ><Nav.Link style={{marginLeft: '16px',color: 'white'}} className="opcionesnav" href="#link">PokeDex</Nav.Link></Link>
-            <Link to="/About"><Nav.Link style={{marginLeft: '16px',color: 'white'}} className="opcionesnav" href="#link">Acerca de mi</Nav.Link></Link>
+            <Link to="/" ><Nav.Link style={{marginLeft: '16px',color: 'white', textDecoration: 'none'}} className="opcionesnav" href="#home">Inicio</Nav.Link></Link>
+            <Link to="/Pokemons" ><Nav.Link style={{marginLeft: '16px',color: 'white', textDecoration: 'none'}} className="opcionesnav" href="#link">PokeDex</Nav.Link></Link>
+            <Link to="/About"><Nav.Link style={{marginLeft: '16px',color: 'white', textDecoration: 'none'}} className="opcionesnav" href="#link">Acerca de mi</Nav.Link></Link>
 
             <NavDropdown title="Mas Contenido" className="text-light" id="basic-nav-dropdown">
-              <Link to="/Regions">Regiones</Link>
-              <Link to="/Items">Items</Link>
-              <Link to="/Berries">Bayas</Link>
+              <ul>
+                <li><Link style={{marginLeft: '16px',color: 'black', textDecoration: 'none'}} to="/Regions">Regiones</Link></li>
+                <li><Link style={{marginLeft: '16px',color: 'black', textDecoration: 'none'}} to="/Items">Items</Link></li>
+                <li><Link style={{marginLeft: '16px',color: 'black', textDecoration: 'none'}} to="/Berries">Bayas</Link></li>
+              </ul>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
