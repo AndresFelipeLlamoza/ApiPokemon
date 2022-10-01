@@ -5,6 +5,7 @@ import Card from 'react-bootstrap/Card';
 import NavbarApp from '../components/NavbarApp'
 import FooterApp from '../components/FooterApp';
 import UsePokemon from '../hooks/UsePokemon';
+import {Link} from 'react-router-dom'
 
 function Pokemons() {
 
@@ -17,7 +18,8 @@ function Pokemons() {
         <h1 className="pokeTitulo">PokeDex</h1>
         <div className='containerPokemon'>
         {pokemon.map(data => (
-            <Card style={{ width: '18rem', backgroundColor: '#FFE86D' }}>
+          <Link to={`/DetallesPokemon/${data.url.split("/")[6]}`}>
+            <Card style={{ boxShadow: '5px 8px 7px rgb(0 0 0 / 0.5)',backgroundColor: '#FFE86D', textAlign: 'center' }}>
               <Card.Img variant="top" src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${data.url.split("/")[6]}.png`} />
               <Card.Body>
                 <Card.Title>{data.name}</Card.Title>
@@ -26,13 +28,14 @@ function Pokemons() {
                 </Card.Text>
                 <Button variant="primary">Mas informacion</Button>
               </Card.Body>
-            </Card> 
+            </Card>
+            </Link>
         ))}
         </div>
         <div className='botonContador'>
-          <button onClick={prev} className="botonAtras">Anterior</button>
-          <center><h3>{page}</h3></center>
-          <button onClick={next} className="botonSigueinte">Siguiente</button>
+          <center><button onClick={prev} className="botonAtras">Anterior</button></center>
+          <center><h3 style={{color: 'white'}}>{page}</h3></center>
+          <center><button onClick={next} className="botonAtras">Siguiente</button></center>
         </div>
         <FooterApp/>
         

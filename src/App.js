@@ -7,7 +7,7 @@ import Berries from './views/Berries';
 import Items from './views/Items';
 import Regions from './views/Regions'
 import About from './views/About';
-
+import DetailsPokemon from './views/DetailsPokemon';
 
 function App() {
   return (
@@ -19,6 +19,8 @@ function App() {
         <Route path='/Items' element={<Items/>}></Route>
         <Route path='/Regions' element={<Regions/>}></Route>
         <Route path='/About' element={<About/>}></Route>
+        <Route path='/DetallesPokemon' element={<DetailsPokemon/>}></Route>
+        <Route path='/DetallesPokemon:url' element={<DetailsPokemon/>}></Route>
      </Routes>
     </div>
   );
