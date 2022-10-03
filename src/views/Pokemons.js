@@ -18,7 +18,7 @@ function Pokemons() {
         <h1 className="pokeTitulo">PokeDex</h1>
         <div className='containerPokemon'>
         {pokemon.map(data => (
-          <Link to={`/DetallesPokemon/${data.url.split("/")[6]}`}>
+          
             <Card style={{ boxShadow: '5px 8px 7px rgb(0 0 0 / 0.5)',backgroundColor: '#FFE86D', textAlign: 'center' }}>
               <Card.Img variant="top" src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${data.url.split("/")[6]}.png`} />
               <Card.Body>
@@ -26,10 +26,9 @@ function Pokemons() {
                 <Card.Text>
                  #{data.url.split("/")[6]}
                 </Card.Text>
-                <Button variant="primary">Mas informacion</Button>
+                <Link to={`/DetallesPokemon/${data.url.split("/")[6]}`}><Button variant="primary">Mas informacion</Button></Link>
               </Card.Body>
             </Card>
-            </Link>
         ))}
         </div>
         <div className='botonContador'>

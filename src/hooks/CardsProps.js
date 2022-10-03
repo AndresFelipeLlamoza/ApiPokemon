@@ -5,7 +5,7 @@ import CardsApp from '../components/CardsApp'
 const CardsProps = (props) => {
   return (
     <>
-    <Card style={{backgroundColor: '#FF2E2E', borderRadius: '50px 0px ', width: '22rem', textAlign: 'center', color: 'white'}}>
+    <Card style={{backgroundColor: '#FF2E2E', borderRadius: '50px 0px ', textAlign: 'center', color: 'white'}}>
     
       <Card.Img style={{ borderRadius: '50px 0px ' }} variant="top" src={props.img} />
       <Card.Body>

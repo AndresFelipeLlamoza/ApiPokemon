@@ -13,14 +13,14 @@ function App() {
   return (
     <div>
      <Routes>
+        <Route path='/DetallesPokemon/:url' element={<DetailsPokemon/>}></Route>
+        <Route path='/DetallesPokemon' element={<DetailsPokemon/>}></Route>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/Berries' element={<Berries/>}></Route>
         <Route path='/Pokemons' element={<Pokemons/>}></Route>
         <Route path='/Items' element={<Items/>}></Route>
         <Route path='/Regions' element={<Regions/>}></Route>
         <Route path='/About' element={<About/>}></Route>
-        <Route path='/DetallesPokemon' element={<DetailsPokemon/>}></Route>
-        <Route path='/DetallesPokemon:url' element={<DetailsPokemon/>}></Route>
      </Routes>
     </div>
   );

@@ -22,7 +22,27 @@ function DetailsPokemon(){
     return(
         <div>
             <NavbarApp/>
-            <h1>Hola aqui van los detalles de {pokemon.name}</h1>
+            <h1 className='detallesTitulo'>{pokemon.name} N.º{url} </h1>
+            <div className='contenedorDetalles'>
+                <div className='cd1'>
+                    <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${url}.png`}></img>
+                </div>
+                <div className='cd2'>
+                    <p>Experiencia base: {pokemon.base_experience} </p>
+                    <p>Altura: {pokemon.height} </p>
+                    <p>Peso: {pokemon.weight} </p>
+                    <p>Orden: {pokemon.order} </p>
+                    
+                </div>
+
+                <div className='cd3'>
+                <h4>Habilidades</h4>
+                </div>
+
+                <div className='cd4'>
+                    
+                </div>
+            </div>
             <FooterApp/>    
         </div>
     )

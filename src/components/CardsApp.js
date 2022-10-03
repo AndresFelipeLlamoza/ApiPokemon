@@ -16,7 +16,7 @@ const CardsContent = [
         texto: 'Accede a todo tipo de informacion sobre pokemon aqui, espero sea mi pagina de su agrado'
     },
     {
-        titulo: 'Un mundo inmenso, lleno de misterios, lugares y criaturas muy amistosas',
+        titulo: 'Un mundo gigantesco',
         img: Imagenes.card3,
         texto: 'Toda la informacion sobre las regiones y lugares del mundo de pokemon la encontraras aqui'
     }
