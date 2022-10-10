@@ -8,6 +8,15 @@ import card3 from './card3.jpg'
 import sli1 from './sli1.jpg'
 import sli2 from './sli2.jpg'
 import sli3 from './sli3.jpg'
+import Kanto from './Kanto.webp'
+import Johto from './Johto.webp'
+import Hoenn from './Hoenn.webp'
+import Sinnoh from './Sinnoh.webp'
+import Unova from './Unova.webp'
+import Kalos from './Kalos.webp'
+import Alola from './Alola.webp'
+import Galar from './Galar.webp'
+import Hisui from './Hisui.jpg'
 
 export default {
     "icono": pokeball,
@@ -18,5 +27,14 @@ export default {
     "card3": card3,
     "sli1": sli1,
     "sli2": sli2,
-    "sli3": sli3
+    "sli3": sli3,
+    "Kanto": Kanto,
+    "Johto": Johto,
+    "Hoenn": Hoenn,
+    "Sinnoh": Sinnoh,
+    "Unova": Unova,
+    "Kalos": Kalos,
+    "Alola": Alola,
+    "Galar": Galar,
+    "Hisui": Hisui
 };

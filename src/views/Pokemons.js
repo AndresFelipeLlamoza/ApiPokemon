@@ -19,8 +19,8 @@ function Pokemons() {
         <div className='containerPokemon'>
         {pokemon.map(data => (
           
-            <Card style={{ boxShadow: '5px 8px 7px rgb(0 0 0 / 0.5)',backgroundColor: '#FFE86D', textAlign: 'center' }}>
-              <Card.Img variant="top" src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${data.url.split("/")[6]}.png`} />
+            <Card style={{ boxShadow: '5px 8px 7px rgb(0 0 0 / 0.5)',backgroundColor: '#FFE86D', textAlign: 'center', padding: '25px', borderRadius: '40px' }}>
+              <Card.Img variant="top" src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${data.url.split("/")[6]}.png`} />
               <Card.Body>
                 <Card.Title>{data.name}</Card.Title>
                 <Card.Text>
