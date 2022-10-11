@@ -8,8 +8,7 @@ function SliderApp() {
         <Carousel.Item>
             <div className="imagen">
                 <img
-                className="d-block "
-                style={{width: '70rem'}}
+                className="d-block"
                 src={Imagenes.sli1}
                 alt="First slide"
                 />
@@ -21,7 +20,6 @@ function SliderApp() {
             <div className="imagen">
                 <img
                 className="d-block "
-                style={{width: '70rem'}}
                 src={Imagenes.sli2}
                 alt="Second slide"
                 />
@@ -33,7 +31,6 @@ function SliderApp() {
             <div className="imagen">
                 <img
                 className="d-block "
-                style={{width: '70rem'}}
                 src={Imagenes.sli3}
                 alt="Third slide"
                 />

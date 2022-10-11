@@ -80,7 +80,8 @@ ul{
 }
 .cd1{
   background-color: white;
-  
+  display: grid;
+  justify-content: center;
 }
 .cd2{
   background-color: white;
@@ -88,6 +89,7 @@ ul{
 }
 .cd3{
   background-color: white;
+
 }
 .cd4{
   background-color: white;
@@ -166,4 +168,11 @@ ul{
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+/*-------------------------------------------RESPONSIVE------------------------------------*/
+@media screen and (max-width:850px){
+  
 }

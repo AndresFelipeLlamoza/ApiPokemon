@@ -15,7 +15,9 @@
     padding-bottom: 60px;
 }
 
-
+.d-block{
+    width: 70rem
+}
 
 .titulovideo{
     padding: 20px;
@@ -56,4 +58,43 @@ footer{
 
 .logopoke{
     width: 250px;
+}
+
+/*-------------------------------------------RESPONSIVE------------------------------------*/
+@media screen and (max-width:950px){
+  .cardsContainer{
+    display: grid;
+    grid-template-columns: 50%;
+    row-gap: 70px;
+  }
+  .contenidoFooter{
+    display: grid;
+    grid-template-columns: 60%;
+    row-gap: 0px;
+    justify-content: center;
+  }
+
+  .d-block{
+    width: 40rem
+  }
+}
+
+@media screen and (max-width: 575px){
+    .videoContent{
+        width: 400px
+    }
+
+    .d-block{
+        width: 40rem
+      }
+}
+
+@media screen and (max-width: 420px){
+    .videoContent{
+        width: 300px;
+    }
+
+    .d-block{
+        width: 40rem
+      }
 }
