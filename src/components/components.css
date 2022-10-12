@@ -89,6 +89,12 @@ footer{
       }
 }
 
+@media screen and (max-width: 550px){
+    .cardsContainer{
+        display: grid;
+        grid-template-columns: 60%
+    }
+}
 @media screen and (max-width: 420px){
     .videoContent{
         width: 300px;
@@ -97,4 +103,11 @@ footer{
     .d-block{
         width: 40rem
       }
+}
+
+@media screen and (max-width: 400px) {
+    .contenidoFooter{
+        display: grid;
+        grid-template-columns: 80%;
+    }
 }
