@@ -24,20 +24,20 @@ ul{
   display: grid;
   grid-template-columns: 20% 20% 20%;
   justify-content: center;
-  row-gap: 45px;
-  column-gap: 55px;
-  padding-bottom: 50px;
+  row-gap: 55px;
+  column-gap: 75px;
+  padding-bottom: 70px;
 }
 
 .botonContador{
   display: grid;
-  grid-template-columns: 20% 20% 20%;
+  grid-template-columns: 10% 10% 10%;
   justify-content: center;
   padding-bottom: 35px;
 }
 
 .botonAtras{
-  border:  1px white;
+  border:  1px rgb(0, 97, 24);
   border-radius:  25px;
   padding:  5px;
   width:  200px;
@@ -130,7 +130,7 @@ ul{
 
 .pokeTitulo{
   text-align: center;
-  padding: 35px;
+  padding: 45px;
   font-family: PokemonGB;
   color: white
 }
@@ -173,6 +173,42 @@ ul{
 
 
 /*-------------------------------------------RESPONSIVE------------------------------------*/
-@media screen and (max-width:850px){
-  
+@media screen and (max-width:950px){
+  .containerPokemon{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    padding: 30px
+  }
+
+}
+
+@media screen and (max-width: 835px){
+  .containerPokemon{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    padding-bottom: 45px;
+  }
+}
+
+
+@media screen and (max-width: 700px){
+  .containerPokemon{
+    display: grid;
+    grid-template-columns: 35% 35%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .containerPokemon{
+    display: grid;
+    grid-template-columns: 55%;
+    row-gap: 75px
+  }
+}
+
+@media screen and (max-width: 400px){
+  .containerPokemon{
+    display: grid;
+    grid-template-columns: 75%;
+  }
 }

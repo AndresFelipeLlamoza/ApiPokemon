@@ -32,9 +32,9 @@ function Pokemons() {
         ))}
         </div>
         <div className='botonContador'>
-          <center><button onClick={prev} className="botonAtras">Anterior</button></center>
-          <center><h3 style={{color: 'white'}}>{page}</h3></center>
-          <center><button onClick={next} className="botonAtras">Siguiente</button></center>
+          <div><button onClick={prev} className="botonAtras">Anterior</button></div>
+          <div><center><h3 style={{color: 'white'}}>{page}</h3></center></div>
+          <div><button onClick={next} className="botonAtras">Siguiente</button></div>
         </div>
         <FooterApp/>
         
