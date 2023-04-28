@@ -9,6 +9,8 @@ import { BrowserRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3895185603557215"
+     crossorigin="anonymous"></script>
     <App />
   </BrowserRouter>
 );
